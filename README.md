@@ -4,7 +4,19 @@ Welcome to the official repository for **PureGlow** — a modern, responsive, an
 
 **Project Structure**
 
-lamp-website/  ├── index.html # Homepage   ├── features.html # Product features   ├── gallery.html # Product images   ├── reviews.html # Customer reviews and review form   ├── contact.html   # Contact information and form   └── style.css # Main stylesheet 
+lamp-website/
+
+index.html – Homepage
+
+features.html – Product features
+
+gallery.html – Product images
+
+reviews.html – Customer reviews and form
+
+contact.html – Contact info and form
+
+style.css – Main stylesheet
 
 **Features**
 <br>
