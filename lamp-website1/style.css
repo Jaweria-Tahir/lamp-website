@@ -1,0 +1,485 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;/*reset default spacing*/
+}
+#main {
+  background-color: #e3e8f0;   /* Common background */
+  padding: 8px 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+#heading {
+  position: fixed; /* make it fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: rgb(75, 75, 228);
+  background-color: #e3e8f0;
+  padding: 5px 0;
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 800; /* keep it on top of everything */
+}
+
+/* Header 2 */
+#heading2 {
+  position: fixed;
+  top: 40px; /* position below #heading */
+  left: 0;
+  width: 100%;
+  color: rgb(145, 141, 141);
+  background-color: #e3e8f0;
+  padding: 3px 0;
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+  z-index: 999;
+}
+
+/* Navigation */
+#n {
+  position: fixed;
+  top: 70px; /* position below #heading2 */
+  left: 0;
+  width: 100%;
+  background-color: darkgray;
+  text-align: center;
+  padding: 5px 0;
+  margin:0;
+  z-index: 998;
+  transition: all 0.3s ease-in;
+}
+
+#n a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transform: translateY(-3px) scale(1.1);
+}
+
+/* line over the text when pointer on the text */
+#n a:hover {
+  text-decoration: underline;
+}
+/* Customer Reviews Title */
+h1 {
+  text-align: center;
+  font-size: 26px;
+  color: rgb(75, 75, 228);
+  margin: 30px 0 10px 0;
+}
+
+/* Each review box */
+.reviewContainer {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 80%;
+  padding: 15px;
+  margin: 20px auto;
+  font-size: 16px;
+}
+
+/* Write Review Title */
+#reviewTitle {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 50%;
+  margin: 30px auto 10px;
+  text-transform: capitalize;
+}
+
+
+
+/* Footer */
+#footer {
+  background-color: lightgray;
+  color: darkgray;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 4px 10px;
+  text-align: center;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+/* Buttons */
+button,
+input[type="submit"] {
+  background-color: white;
+  color: rgb(75, 75, 228);
+  font-weight: bold;
+  border: 2px solid rgb(75, 75, 228);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: rgb(75, 75, 228);
+  color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.95) rotate(0deg);
+}
+/* contact form*/
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid lightgrey;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+/* Review Form */
+.reviewForm {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+  font-size: 16px;
+}
+/* review form */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(170, 170, 170);
+  font-size: 16px;
+}
+/* contact  */
+p {
+  font-size: 16px;
+  /* 1 rem */
+  font-family: 'Georgia', serif;
+  line-height: 1.7;
+  margin: 20px;
+  padding: 5px 10px;
+
+}
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 2px solid #e3e8f0;
+  width: 30vw; 
+  max-width: 300px;
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+}
+
+/* for features */
+table {
+  width: 100%;
+  margin: 0 auto 30px;
+}
+/* table cell style */
+td {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 15px 15px 15px;
+  width: 22%;
+  vertical-align: top;
+  font-family: 'Tahoma', sans-serif;
+  line-height: 1.5;
+  transition: transform 0.3s ease-in-out;
+}
+
+td:hover {
+  transform: scale(1.4); 
+}
+/* Product image styling */
+td img {
+  width: 100%;
+   border-radius: 8px;
+   /* makes image corner slightly round */ 
+   
+}
+/* Product title */
+td b {
+  font-size: 18px;
+
+}
+/* 
+bullet list styling */
+td ul {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  padding-left: 18px;
+}
+
+#contactInfo {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  text-align: left;
+  color: black;
+}
+
+
+.social span {
+  color: rgb(75, 75, 228);   
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 8px;
+  cursor: pointer;           
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.social span:hover {
+  color: white;             
+  transform: scale(1.5) translateY(-10px);
+}
+ #homePara {
+  font-size: 16px;
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  text-align: justify;
+  padding: 15px 25px;
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+#s {
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid lightgrey;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  transform: rotate(1deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+#contents {
+  margin-top: 100px;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  #heading, #heading2 {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  #n a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  #homePara, #s, #reviewTitle {
+    width: 95%;
+    font-size: 14px;
+  }
+
+  img {
+    width: 80vw;
+  }
+  form {
+        padding: 20px;
+      }
+
+      form h1 {
+        font-size: 22px;
+      }
+}
+
+/* sidebar */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: -200px; /* hidden by default */
+  width: 200px;
+  height: 100%;
+  background-color: #333;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(0);
+  z-index: 999;
+}
+
+#sidebar.show {
+  transform: translateX(200px); /* slide in */
+}
+
+/* Sidebar Links */
+#sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 18px;
+
+}
+
+#sidebar a:hover {
+  background-color: #575757;
+}
+
+#toggleBtn {
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  background-color: #e3e8f0;
+  padding: 4px 8px;
+  border-radius: 3px;
+  z-index: 1000;
+}
+
+#toggleBtn:hover {
+  background-color: #ccc;
+}
+/* login page */
+.wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 93vh;
+      padding: 20px;
+      background-color: #e3e8f0;
+    }
+
+    form {
+      background-color: white;
+      padding: 30px 25px;
+      border-radius: 15px;
+      border: 2px solid lightgrey;
+      width: 90%;
+      max-width: 420px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    form h1 {
+      color: rgb(55, 160, 173);
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+
+    .inputBox input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 18px;
+      border: 1px solid rgb(170, 170, 170);
+      border-radius: 10px;
+      font-size: 16px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .inputBox input:focus {
+      border-color: rgb(55, 160, 173);
+      outline: none;
+      box-shadow: 0 0 6px rgba(75, 228, 205, 0.3);
+    }
+    
+    .forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin: 0 0 15px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 6px; 
+  white-space: nowrap; 
+}
+
+.remember span{
+  color: rgb(55, 160, 173);;
+}
+    .forget label input{
+      margin-right: 3px;
+    }
+    .forget a {
+      text-decoration: none;
+      color: rgb(55, 160, 173);
+    }
+
+    .forget a:hover {
+      text-decoration: underline;
+    }
+
+    .btn {
+      width: 100%;
+      background-color: white;
+  color:  rgb(55, 160, 173);
+  font-weight: bold;
+  border: 2px solid  rgb(55, 160, 173);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
+  transition: all 0.4s ease-in-out;
+    }
+
+    .btn:hover{
+       background-color: rgb(55, 160, 173);
+  color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+    }
+    .register {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .register a {
+      text-decoration: none;
+      color: rgb(55, 160, 173);
+      font-weight: bold;
+    }
+
+    .register a:hover {
+      text-decoration: underline;
+    }
