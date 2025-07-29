@@ -21,10 +21,15 @@ style.css – Main stylesheet
 **Features**
 <br>
 -**Modern UI:** Clean and minimal design with consistent layout.
+
 -**Responsive Design:** Mobile-friendly using viewport meta tag and flexible layout.
+
 -**Navigation Bar:** Easily navigate between pages like Home, Features, Gallery, Reviews, and Contact.
+
 -**Customer Reviews:** Real user testimonials and a form to submit reviews.
+
 -**Gallery:** Image showcase of various lamp models.
+
 -**Contact Form:** A simple form for customer queries (non-functional in static version).
 
 **Technologies Used**
@@ -38,7 +43,9 @@ style.css – Main stylesheet
 
 **Author**
 -Jaweria Tahir
+
 -2nd Semester BS Software Engineering Student
+
 -COMSATS University Islamabad, Lahore Campus
 
  **Future Improvements**
