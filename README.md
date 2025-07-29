@@ -14,12 +14,12 @@ lamp-website/
 
 **Features**
 <br>
-**Modern UI:** Clean and minimal design with consistent layout.
-**Responsive Design:** Mobile-friendly using viewport meta tag and flexible layout.
-**Navigation Bar:** Easily navigate between pages like Home, Features, Gallery, Reviews, and Contact.
-**Customer Reviews:** Real user testimonials and a form to submit reviews.
-**Gallery:** Image showcase of various lamp models.
-**Contact Form:** A simple form for customer queries (non-functional in static version).
+**-Modern UI:** Clean and minimal design with consistent layout.
+**-Responsive Design:** Mobile-friendly using viewport meta tag and flexible layout.
+**-Navigation Bar:** Easily navigate between pages like Home, Features, Gallery, Reviews, and Contact.
+**-Customer Reviews:** Real user testimonials and a form to submit reviews.
+**-Gallery:** Image showcase of various lamp models.
+**-Contact Form:** A simple form for customer queries (non-functional in static version).
 
 **Technologies Used**
 
@@ -31,9 +31,9 @@ lamp-website/
 <img width="1890" height="835" alt="Screenshot 2025-07-29 195403(1)(1)" src="https://github.com/user-attachments/assets/529ab7bc-d1b2-497a-b069-0a4aee09dd42" />
 
 **Author**
-Jaweria Tahir
-2nd Semester BS Software Engineering Student
-COMSATS University Islamabad, Lahore Campus
+-Jaweria Tahir
+-2nd Semester BS Software Engineering Student
+-COMSATS University Islamabad, Lahore Campus
 
  **Future Improvements**
 Some enhancements planned for this project:
