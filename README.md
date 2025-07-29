@@ -4,23 +4,16 @@ Welcome to the official repository for **PureGlow** — a modern, responsive, an
 
 **Project Structure**
 
-lamp-website/
--index.html # Homepage
-
--features.html # Product features
--gallery.html # Product images
--reviews.html # Customer reviews and review form
--contact.html # Contact information and form
--style.css # Main stylesheet
+<pre> ``` lamp-website/ ├── index.html # Homepage ├── features.html # Product features ├── gallery.html # Product images ├── reviews.html # Customer reviews and review form ├── contact.html # Contact information and form └── style.css # Main stylesheet ``` </pre>
 
 **Features**
 <br>
-**-Modern UI:** Clean and minimal design with consistent layout.
-**-Responsive Design:** Mobile-friendly using viewport meta tag and flexible layout.
-**-Navigation Bar:** Easily navigate between pages like Home, Features, Gallery, Reviews, and Contact.
-**-Customer Reviews:** Real user testimonials and a form to submit reviews.
-**-Gallery:** Image showcase of various lamp models.
-**-Contact Form:** A simple form for customer queries (non-functional in static version).
+-**Modern UI:** Clean and minimal design with consistent layout.
+-**Responsive Design:** Mobile-friendly using viewport meta tag and flexible layout.
+-**Navigation Bar:** Easily navigate between pages like Home, Features, Gallery, Reviews, and Contact.
+-**Customer Reviews:** Real user testimonials and a form to submit reviews.
+-**Gallery:** Image showcase of various lamp models.
+-**Contact Form:** A simple form for customer queries (non-functional in static version).
 
 **Technologies Used**
 
