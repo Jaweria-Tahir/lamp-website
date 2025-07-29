@@ -6,6 +6,7 @@ Welcome to the official repository for **PureGlow** — a modern, responsive, an
 
 lamp-website/
 -index.html # Homepage
+
 -features.html # Product features
 -gallery.html # Product images
 -reviews.html # Customer reviews and review form
