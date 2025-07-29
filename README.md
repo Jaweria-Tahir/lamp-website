@@ -1,9 +1,9 @@
-<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/0422d716-404b-492c-ab4a-4f96ec4bd5fd" />**PureGlow - LED Smart Lamp Website**
-
+**PureGlow - LED Smart Lamp Website**
+<br>
 Welcome to the official repository for **PureGlow** — a modern, responsive, and interactive promotional website for a smart LED lamp product. This project is a static website created using **HTML** and **CSS**, showcasing the key features, customer reviews, gallery, and contact options for the product.
-
+<br>
 **Project Structure**
-
+<br>
 lamp-website/
 ├── index.html # Homepage
 ├── features.html # Product features
@@ -11,9 +11,9 @@ lamp-website/
 ├── reviews.html # Customer reviews and review form
 ├── contact.html # Contact information and form
 ├── style.css # Main stylesheet
-
+<br>
 **Features**
-
+<br>
 **Modern UI:** Clean and minimal design with consistent layout.
 **Responsive Design:** Mobile-friendly using viewport meta tag and flexible layout.
 **Navigation Bar:** Easily navigate between pages like Home, Features, Gallery, Reviews, and Contact.
